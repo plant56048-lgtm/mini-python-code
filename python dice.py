@@ -1,12 +1,13 @@
-import rabdom
+import random
 
 while True:
-  choice=input('Roll the dice(y/n):')
-               if choice==y:
-               die1=random.randit(1,6)
-               die1=random.randit(1,6)
-          elif choice==n:
-               print('Thanks for playing')
-            break
-         else:
-              pront('invalid choice')
+    choice = input('Roll the dice (y/n): ')
+    if choice == 'y':
+        die1 = random.randint(1, 6)
+        die2 = random.randint(1, 6)
+        print(f'You rolled {die1} and {die2}')
+    elif choice == 'n':
+        print('Thanks for playing!')
+        break
+    else:
+        print('Invalid choice, please enter y or n.')
