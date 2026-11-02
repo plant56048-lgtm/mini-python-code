@@ -6,6 +6,7 @@ This repository contains a set of small Python programs created for practice and
 - 🔢 **Number Guessing Game** – Try to guess the number chosen by the computer.
 - 🪨 **Rock-Paper-Scissors** – Classic hand game against the computer.
 - 📷 **QR Code Generator** – Create QR codes from text or links.
+- 🟩 **Rock,paper,scissior** - Play rock,paper and scissior
 
 ## How to Run
 Clone the repository and run each program with Python:
@@ -14,3 +15,4 @@ python dice.py
 python number guess.py
 python rps.py
 python qr_generator.py
+python rock_paper_scisior.py
